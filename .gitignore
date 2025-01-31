@@ -1,0 +1,6 @@
+web/build/
+web/node_modules/
+web/.env
+
+api/server
+api/.env
