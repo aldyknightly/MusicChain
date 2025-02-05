@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/aldyknightly/MusicChain/tree/main/api/controllers"
+	"github.com/aldyknightly/MusicChain/api/controllers"
 	"github.com/gin-gonic/gin"
 )
 
