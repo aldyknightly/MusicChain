@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/hiepnguyen223/int3306-project/common"
+	"github.com/aldyknightly/MusicChain/tree/main/api/common"
 )
 
 type AdminService struct{}

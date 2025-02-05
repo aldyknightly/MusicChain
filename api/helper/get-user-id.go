@@ -1,8 +1,8 @@
 package helper
 
 import (
+	"github.com/aldyknightly/MusicChain/tree/main/api/models"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/models"
 )
 
 func GetUserID(c *gin.Context) uint {

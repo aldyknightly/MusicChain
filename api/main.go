@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/aldyknightly/MusicChain/tree/main/api/common"
+	"github.com/aldyknightly/MusicChain/tree/main/api/configs"
+	"github.com/aldyknightly/MusicChain/tree/main/api/middlewares"
+	"github.com/aldyknightly/MusicChain/tree/main/api/models"
+	"github.com/aldyknightly/MusicChain/tree/main/api/routers"
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/common"
-	"github.com/hiepnguyen223/int3306-project/configs"
-	"github.com/hiepnguyen223/int3306-project/middlewares"
-	"github.com/hiepnguyen223/int3306-project/models"
-	"github.com/hiepnguyen223/int3306-project/routers"
 	"github.com/joho/godotenv"
 )
 
@@ -48,7 +48,7 @@ func initServer() {
 		PORT = ":3001"
 	}
 	err := app.Run(PORT)
-	if (err == nil) {
+	if err == nil {
 		fmt.Printf("Server started at port %s", PORT)
 	}
 }
@@ -72,5 +72,5 @@ func main() {
 	}
 
 	initDB()
-	initServer();
+	initServer()
 }

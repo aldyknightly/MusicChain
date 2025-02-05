@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
+	"github.com/aldyknightly/MusicChain/tree/main/api/configs"
 	"github.com/cloudinary/cloudinary-go/v2"
 	"github.com/cloudinary/cloudinary-go/v2/api/uploader"
-	"github.com/hiepnguyen223/int3306-project/configs"
 )
 
 type mediaUpload struct{}

@@ -1,8 +1,8 @@
 package routers
 
 import (
+	"github.com/aldyknightly/MusicChain/tree/main/api/controllers"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/controllers"
 )
 
 var genreController = controllers.GenreController{}

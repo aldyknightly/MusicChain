@@ -3,10 +3,10 @@ package guard
 import (
 	"net/http"
 
+	"github.com/aldyknightly/MusicChain/tree/main/api/common"
+	"github.com/aldyknightly/MusicChain/tree/main/api/dtos"
+	"github.com/aldyknightly/MusicChain/tree/main/api/models"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/common"
-	"github.com/hiepnguyen223/int3306-project/dtos"
-	"github.com/hiepnguyen223/int3306-project/models"
 )
 
 func Song() gin.HandlerFunc {

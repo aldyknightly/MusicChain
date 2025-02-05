@@ -3,9 +3,9 @@ package services
 import (
 	"errors"
 
-	"github.com/hiepnguyen223/int3306-project/common"
-	"github.com/hiepnguyen223/int3306-project/helper"
-	"github.com/hiepnguyen223/int3306-project/models"
+	"github.com/aldyknightly/MusicChain/tree/main/api/common"
+	"github.com/aldyknightly/MusicChain/tree/main/api/helper"
+	"github.com/aldyknightly/MusicChain/tree/main/api/models"
 	"gorm.io/gorm"
 )
 
@@ -94,13 +94,15 @@ func (UserService) GetFavoriteSong(userID uint) ([]songModel, error) {
 
 	err := common.GetDB().
 		Model(&models.UserLikeSong{}).
-		Where("user_id = ?", userID).Select(
-		"songs.*",
-		"`Author`.`id` as `Author__id`",
-	).
-		Joins("join songs on songs.id = user_like_songs.song_id").
-		Joins("join users as Author on Author.id = user_like_songs.user_id").
+		Where("user_id = ?", userID).
+		Select(
+			"songs.*",                // Select all columns from songs
+			"Author.id AS Author_id", // Corrected alias without backticks
+		).
+		Joins("JOIN songs ON songs.id = user_like_songs.song_id").
+		Joins("JOIN users AS Author ON Author.id = user_like_songs.user_id").
 		Find(&songs).Error
+
 	return songs, err
 }
 

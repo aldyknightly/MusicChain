@@ -1,7 +1,7 @@
 package mail
 
 import (
-	"github.com/hiepnguyen223/int3306-project/configs"
+	"github.com/aldyknightly/MusicChain/tree/main/api/configs"
 	"gopkg.in/gomail.v2"
 )
 

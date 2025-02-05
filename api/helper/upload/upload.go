@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/aldyknightly/MusicChain/tree/main/api/helper"
 	"github.com/fatih/structs"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/helper"
 )
 
 func Upload(c *gin.Context, filesStruct interface{}) error {

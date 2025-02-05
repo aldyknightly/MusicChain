@@ -1,9 +1,9 @@
 package services
 
 import (
-	"github.com/hiepnguyen223/int3306-project/common"
-	"github.com/hiepnguyen223/int3306-project/helper"
-	"github.com/hiepnguyen223/int3306-project/models"
+	"github.com/aldyknightly/MusicChain/tree/main/api/common"
+	"github.com/aldyknightly/MusicChain/tree/main/api/helper"
+	"github.com/aldyknightly/MusicChain/tree/main/api/models"
 	"gorm.io/gorm"
 )
 

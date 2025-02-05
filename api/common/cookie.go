@@ -3,8 +3,8 @@ package common
 import (
 	"net/http"
 
+	"github.com/aldyknightly/MusicChain/tree/main/api/configs"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/configs"
 )
 
 func SetTokenCookie(c *gin.Context, token string) {

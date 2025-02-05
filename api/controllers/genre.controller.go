@@ -3,8 +3,8 @@ package controllers
 import (
 	"net/http"
 
+	"github.com/aldyknightly/MusicChain/tree/main/api/services"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/services"
 )
 
 type GenreController struct{}

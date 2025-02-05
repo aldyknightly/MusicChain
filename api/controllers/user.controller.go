@@ -5,12 +5,13 @@ import (
 	"math"
 	"net/http"
 
+	"https://github.com/aldyknightly/MusicChain/tree/main/api/services"
+
+	"github.com/aldyknightly/MusicChain/tree/main/api/common"
+	"github.com/aldyknightly/MusicChain/tree/main/api/dtos"
+	"github.com/aldyknightly/MusicChain/tree/main/api/helper"
+	"github.com/aldyknightly/MusicChain/tree/main/api/helper/upload"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/common"
-	"github.com/hiepnguyen223/int3306-project/dtos"
-	"github.com/hiepnguyen223/int3306-project/helper"
-	"github.com/hiepnguyen223/int3306-project/helper/upload"
-	"github.com/hiepnguyen223/int3306-project/services"
 )
 
 var followService = services.FollowService{}
@@ -21,7 +22,7 @@ func (UserController) UpdateUser(c *gin.Context) {
 	userID := helper.GetUserID(c)
 
 	userUpdate := dtos.UserUpdateInput{}
-	c.ShouldBind(&userUpdate); //nolint:all
+	c.ShouldBind(&userUpdate) //nolint:all
 
 	if err := upload.Upload(c, &userUpdate); err != nil {
 		c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"message": err.Error()})

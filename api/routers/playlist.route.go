@@ -1,9 +1,9 @@
 package routers
 
 import (
+	"github.com/aldyknightly/MusicChain/tree/main/api/controllers"
+	"github.com/aldyknightly/MusicChain/tree/main/api/middlewares/guard"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/controllers"
-	"github.com/hiepnguyen223/int3306-project/middlewares/guard"
 )
 
 var playlistController = controllers.PlaylistController{}

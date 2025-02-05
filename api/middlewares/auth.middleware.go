@@ -3,9 +3,9 @@ package middlewares
 import (
 	"fmt"
 
+	"github.com/aldyknightly/MusicChain/tree/main/api/common"
+	"github.com/aldyknightly/MusicChain/tree/main/api/models"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/common"
-	"github.com/hiepnguyen223/int3306-project/models"
 )
 
 type userModel = models.User

@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/hiepnguyen223/int3306-project/configs"
+	"github.com/aldyknightly/MusicChain/tree/main/api/configs"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

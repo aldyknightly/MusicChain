@@ -4,12 +4,13 @@ import (
 	"math"
 	"net/http"
 
+	"https://github.com/aldyknightly/MusicChain/tree/main/api/helper"
+	"https://github.com/aldyknightly/MusicChain/tree/main/api/models"
+	"https://github.com/aldyknightly/MusicChain/tree/main/api/services"
+
+	"github.com/aldyknightly/MusicChain/tree/main/api/dtos"
+	"github.com/aldyknightly/MusicChain/tree/main/api/helper/upload"
 	"github.com/gin-gonic/gin"
-	"github.com/hiepnguyen223/int3306-project/dtos"
-	"github.com/hiepnguyen223/int3306-project/helper"
-	"github.com/hiepnguyen223/int3306-project/helper/upload"
-	"github.com/hiepnguyen223/int3306-project/models"
-	"github.com/hiepnguyen223/int3306-project/services"
 )
 
 type PlaylistController struct{}
