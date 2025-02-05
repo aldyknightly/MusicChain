@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/aldyknightly/MusicChain/tree/main/api/common"
-	"github.com/aldyknightly/MusicChain/tree/main/api/dtos"
-	"github.com/aldyknightly/MusicChain/tree/main/api/helper"
-	"github.com/aldyknightly/MusicChain/tree/main/api/helper/mail"
-	"github.com/aldyknightly/MusicChain/tree/main/api/models"
-	"github.com/aldyknightly/MusicChain/tree/main/api/services"
+	"github.com/aldyknightly/MusicChain/api/common"
+	"github.com/aldyknightly/MusicChain/api/dtos"
+	"github.com/aldyknightly/MusicChain/api/helper"
+	"github.com/aldyknightly/MusicChain/api/helper/mail"
+	"github.com/aldyknightly/MusicChain/api/models"
+	"github.com/aldyknightly/MusicChain/api/services"
 	"github.com/gin-gonic/gin"
 )
 

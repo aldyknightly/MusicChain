@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/aldyknightly/MusicChain/tree/main/api/services"
+	"github.com/aldyknightly/MusicChain/api/services"
 	"github.com/gin-gonic/gin"
 )
 

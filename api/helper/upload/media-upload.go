@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/aldyknightly/MusicChain/tree/main/api/configs"
+	"github.com/aldyknightly/MusicChain/api/configs"
 	"github.com/cloudinary/cloudinary-go/v2"
 	"github.com/cloudinary/cloudinary-go/v2/api/uploader"
 )

@@ -1,4 +1,4 @@
-module github.com/hiepnguyen223/int3306-project
+module github.com/aldyknightly/MusicChain
 
 go 1.21
 

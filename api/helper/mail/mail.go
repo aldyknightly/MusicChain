@@ -1,7 +1,7 @@
 package mail
 
 import (
-	"github.com/aldyknightly/MusicChain/tree/main/api/configs"
+	"github.com/aldyknightly/MusicChain/api/configs"
 	"gopkg.in/gomail.v2"
 )
 

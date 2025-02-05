@@ -4,12 +4,11 @@ import (
 	"math"
 	"net/http"
 
-	"https://github.com/aldyknightly/MusicChain/tree/main/api/services"
-
-	"github.com/aldyknightly/MusicChain/tree/main/api/dtos"
-	"github.com/aldyknightly/MusicChain/tree/main/api/helper"
-	"github.com/aldyknightly/MusicChain/tree/main/api/helper/upload"
-	"github.com/aldyknightly/MusicChain/tree/main/api/models"
+	"github.com/aldyknightly/MusicChain/api/dtos"
+	"github.com/aldyknightly/MusicChain/api/helper"
+	"github.com/aldyknightly/MusicChain/api/helper/upload"
+	"github.com/aldyknightly/MusicChain/api/models"
+	"github.com/aldyknightly/MusicChain/api/services"
 	"github.com/gin-gonic/gin"
 )
 

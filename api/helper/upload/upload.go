@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aldyknightly/MusicChain/tree/main/api/helper"
+	"github.com/aldyknightly/MusicChain/api/helper"
 	"github.com/fatih/structs"
 	"github.com/gin-gonic/gin"
 )

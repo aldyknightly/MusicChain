@@ -3,7 +3,7 @@ package common
 import (
 	"net/http"
 
-	"github.com/aldyknightly/MusicChain/tree/main/api/configs"
+	"github.com/aldyknightly/MusicChain/api/configs"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,9 +3,9 @@ package guard
 import (
 	"net/http"
 
-	"github.com/aldyknightly/MusicChain/tree/main/api/common"
-	"github.com/aldyknightly/MusicChain/tree/main/api/dtos"
-	"github.com/aldyknightly/MusicChain/tree/main/api/models"
+	"github.com/aldyknightly/MusicChain/api/common"
+	"github.com/aldyknightly/MusicChain/api/dtos"
+	"github.com/aldyknightly/MusicChain/api/models"
 	"github.com/gin-gonic/gin"
 )
 

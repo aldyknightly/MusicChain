@@ -1,6 +1,6 @@
 package models
 
-import "github.com/aldyknightly/MusicChain/tree/main/api/common"
+import "github.com/aldyknightly/MusicChain/api/common"
 
 type Genre struct {
 	ID   uint   `gorm:"primaryKey;autoIncrement" json:"id"`
