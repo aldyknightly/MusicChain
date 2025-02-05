@@ -4,11 +4,11 @@ import (
 	"math"
 	"net/http"
 
+	"github.com/aldyknightly/MusicChain/api/dtos"
 	"github.com/aldyknightly/MusicChain/api/helper"
 	"github.com/aldyknightly/MusicChain/api/helper/upload"
 	"github.com/aldyknightly/MusicChain/api/models"
 	"github.com/aldyknightly/MusicChain/api/services"
-	"github.com/aldyknightly/MusicChain/main/api/dtos"
 	"github.com/gin-gonic/gin"
 )
 

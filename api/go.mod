@@ -1,4 +1,4 @@
-module github.com/aldyknightly/MusicChain
+module github.com/aldyknightly/MusicChain/api
 
 go 1.21
 
